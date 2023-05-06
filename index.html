@@ -1,18 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
     <header>
         <h1>Weather Dashboard</h1>
     </header>
     <main>
-        
+        <!-- Search form -->
+        <form id="search-form">
+            <label for="city-input">City:</label>
+            <input type="text" id="city-input" placeholder="Enter city name">
+            <button type="submit">Search</button>
+        </form>
+
+        <!-- Current weather conditions -->
+        <div id="current-weather">
+            <!-- Elements for displaying the city name, date, icon, temperature, humidity, and wind speed will be added dynamically using JavaScript -->
+        </div>
+
+        <!-- 5-day forecast -->
+        <div id="forecast">
+            <!-- Elements for displaying the 5-day forecast will be added dynamically using JavaScript -->
+        </div>
+
     </main>
     <script src="js/script.js"></script>
 </body>
+
 </html>

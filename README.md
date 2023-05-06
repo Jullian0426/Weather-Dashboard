@@ -6,7 +6,7 @@ Weather Dashboard is a web application that allows users to search for current w
 
 ## Usage
 
-1. Explore the deployed application at
+1. Explore the deployed application at https://jullian0426.github.io/Weather-Dashboard/
 
 2. Enter the city name in the search bar and click the "Search" button.
 
